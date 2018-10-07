@@ -1,0 +1,40 @@
+header {
+  background: #ff3333;
+  color: white;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  
+}
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+  padding: 0 850px;
+}
+
+#menu-demo li {
+  
+  list-style:none;
+  padding: 16px;
+  width: 15%;
+  background-color: #ff3333;;
+}
+#menu-demo li a {
+  text-decoration: none; 
+  color: #f8fafc;
+  font-weight: bold;
+  padding: 0 40px;
+}
+
+#menu-demo li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+#menu-demo li:hover {
+  background: #383737 url("star.png") no-repeat scroll left center;
+  width: 17%;
+}

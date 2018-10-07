@@ -1,0 +1,50 @@
+table {
+    font-family: arial, sans-serif;
+    width: 40%;
+    margin-left: 600px;
+    
+}
+
+
+td {
+  margin-left: 600px;
+    border: 1px solid #ff3333;
+    text-align: left;
+    padding: 8px;
+    background-color: #ffffff;
+    
+  
+}
+
+th {
+    border: 1px solid #ff3333;
+    text-align: left;
+    padding: 8px;
+    background-color: #ff3333;
+    color: #ffffff;
+}
+
+button {
+    background: #ff3333;
+    color: white;
+    margin: 8px;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 20px;
+    border-radius: 2px;
+    box-shadow: 0 8px 16px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.08);
+    outline: 0;
+    letter-spacing: .04em;
+    transition: all .15s ease;
+    cursor: pointer;
+    margin-left: 1215px;
+  }
+
+  #article{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 140px; /*140 caractère c'est beaucoup et donc j'ai mis 140ps au lieu de 140ch*/
+  }
